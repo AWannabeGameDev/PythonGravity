@@ -1,0 +1,8 @@
+import pygame as pg
+
+SCREEN_WIDTH = 1600
+SCREEN_HEIGHT = 900
+CENTER_OFFSET = pg.Vector2(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+ZERO_VECTOR = pg.Vector2()
+SCREEN_TITLE = "Gravity Simulation"
+GRAVITY_CONST = 150
